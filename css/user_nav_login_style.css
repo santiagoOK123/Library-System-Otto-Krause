@@ -1,0 +1,512 @@
+body  {
+    background-color: white;
+    font-family: Open_Sauce;
+    margin: 0;
+}
+
+@font-face {
+    font-family: "Open_Sauce";
+    src: url("open-sauce.one-bold.ttf") format("truetype");
+}
+
+.cont_user_desp {
+    position: absolute;
+    background-color: #f8f6f6;
+    right: 8%;
+    top: 6rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 16rem;
+    padding-bottom: 0;
+    font-size: 20px;
+    border-radius: 1rem;
+    gap: 0px;
+    z-index: 2;
+    max-height: 0;
+    opacity: 0;
+    overflow: hidden;
+    transition: max-height 0.5s ease-in-out, opacity 0.3s ease;
+}
+
+.cont_user_desp.open-menu {
+    max-height: 500px;
+    opacity: 1;
+    padding-bottom: 1rem;
+    visibility: visible;
+    border: 1px solid rgba(0, 0, 0, 0.336);
+}
+
+.cont_list_deseos, .cont_mis_ord, .cont_ord_fin, .cont_asist {
+    display: flex;
+    width: 90%;
+    border-radius: 15px;
+    justify-content: center;
+    height: 3rem;
+    margin-top: 10px;
+    align-items: center;
+}
+
+.cont_list_deseos a,
+.cont_mis_ord a,
+.cont_ord_fin a,
+.cont_asist a {
+    color: black;
+}
+
+.cont_list_deseos img, .cont_mis_ord img {
+    height: 40px;
+    width: 40px;
+    margin-right: 2px;
+}
+
+.cerr_ses {
+    display: flex;
+    justify-content: center;
+    background-color: brown;
+    color: white;
+    width: 90%;
+    padding: 10px 0;
+    border-radius: 15px;
+    text-decoration: none;
+    align-items: center;
+}
+
+.cerr_ses img {
+    height: 25px;
+    width: 30px;
+    position: absolute;
+    left: 25px;
+}
+
+.otto_log_n {
+    width: 140px;
+}
+
+.cont_nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cont_buttons {
+    display: flex;
+    justify-content: space-between;
+    width: 11rem;
+}
+
+header {
+    margin-top: 3rem;
+    width: 85%;
+    margin-left: 7%;
+}
+
+.camp_icon_f, .carr_icon, .user_icon {
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+.camp_icon_f:hover, .carr_icon:hover, .user_icon:hover {
+    scale: 110%;
+}
+
+.cont_camp_desp {
+    position: absolute;
+    background-color: #f8f6f6;
+    display: flex;
+    flex-direction: column;
+    width: 22rem;
+    border-radius: 20px;
+    margin-top: 3rem;
+    right: 18%;
+    max-height: 0;
+    overflow: hidden;
+    visibility: hidden;
+    transition: max-height 0.5s ease, visibility 0.3s ease;
+}
+
+.cont_camp_desp.open-menu {
+    max-height: 500px;
+    visibility: visible;
+    border: 1px solid rgba(0, 0, 0, 0.336);
+}
+
+.cont_camp_desp ul {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1rem;
+}
+
+.cont_lib_camp {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    gap: 1rem;
+}
+
+.cont_camp_desp img {
+    height: 120px;
+    width: 70px;
+    border-radius: 10px;
+}
+
+.lib_camp_side h3 {
+    margin-top: -10px;
+}
+
+.lib_camp_side img {
+    height: 30px;
+    width: 25px;
+    background-color: brown;
+    padding: 10px;
+    margin-top: -10px;
+}
+
+.cont_list_deseos:hover,
+.cont_mis_ord:hover,
+.cont_ord_fin:hover,
+.cont_asist:hover {
+    background-color: white;
+    cursor: pointer;
+}
+
+.disp {
+    color: green;
+}
+
+.no_disp {
+    color: crimson;
+}
+
+
+/* body  {
+    background-color: white;
+    font-family: Open_Sauce;
+    margin: 0;
+}
+
+@font-face {
+    font-family: "Open_Sauce";
+    src: url("open-sauce.one-bold.ttf") format("truetype");
+}
+
+
+.cont_user_desp{
+    position: absolute;
+    text-decoration: none;
+    background-color: #f8f6f6;
+    right: 8%;
+    top: 6rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 16rem;
+    padding-bottom: 0;
+    font-size: 20px;
+    border-radius: 1rem;
+    gap: 0px;
+    z-index: 2;
+    max-height: 0;
+    overflow: hidden;
+    transition: all 0.5s;
+    
+    
+
+}
+
+.cont_user_desp.open-menu{
+    max-height: 500px;
+    padding-bottom: 1rem;
+    visibility:visible;
+    position: absolute;
+    border: 1px solid rgba(0, 0, 0, 0.336);
+}
+
+
+
+
+
+
+.cont_list_deseos{
+    display: flex;
+    
+    width: 90%;
+    border-radius: 15px;
+    justify-content: center;
+    height: 3rem;
+    margin-top: 10px;
+    align-items: center;
+
+}
+
+.cont_list_deseos a{
+    color: black;
+}
+
+.cont_list_deseos img{
+    height: 40px;
+    width: 40px;
+    margin-top: 0px;
+    margin-right: 2px;
+}
+
+.cont_mis_ord{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    justify-content: start;
+    height: 3rem;
+    width: 90%;
+    border-radius: 15px;
+}
+
+.cont_mis_ord a{
+    color: black;
+}
+
+.cont_mis_ord img{
+    margin-left: 15px;
+    height: 40px;
+    width: 40px;
+    margin-top: 0px;
+    margin-right: 2px;
+}
+
+.cont_ord_fin{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    height: 3rem;
+    width: 90%;
+    border-radius: 15px;
+    
+    
+}
+
+.cont_ord_fin a{
+    color: black;
+}
+
+
+.cont_nav a{
+    text-decoration: none;
+}
+
+.cont_asist{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    height: 3rem;
+    width: 90%;
+    border-radius: 15px;
+}
+
+.cont_asist a{
+    color: black;
+
+}
+
+.user_link{
+
+    text-decoration: none;
+    color: black;
+    
+
+}
+
+
+.cerr_ses{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    background-color: brown;
+    text-decoration: none;
+    color: white;
+    width: 90%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 15px;
+    align-items: center;
+    
+}
+
+.cerr_ses img{
+    height: 25px;
+    width: 30px;
+    position: absolute;
+    left: 25px;
+}
+
+
+
+
+.otto_log_n{
+    width: 140px;
+    
+
+}
+
+.cont_nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.cont_buttons{
+    display: flex;
+    justify-content: space-between;
+    
+    
+    width: 11rem;
+}
+header{
+    
+    margin-top: 3rem;
+    width: 85%;
+    margin-left:7%;
+    
+}
+
+.camp_icon_f{
+    width: 40px;
+    height: 40px;
+    align-self: flex-end;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+.camp_icon_f:hover{
+    scale: 110%;
+}
+
+.carr_icon{
+    width: 40px;
+    height: 40px;
+    align-self: flex-end;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+.carr_icon:hover{
+    scale: 110%;
+
+}
+
+.user_icon{
+    width: 40px;
+    height: 40px;
+    align-self: flex-end;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+.user_icon:hover{
+    scale: 110%;
+}
+
+
+
+
+
+
+.cont_camp_desp{
+    position: absolute;
+    background-color: #f8f6f6;
+    display: flex;
+    flex-direction: column;
+    width: 22rem;
+    border-radius: 20px;
+    margin-top: 3rem;
+    
+    z-index: 2;
+    overflow: hidden;
+    right: 18%;
+    transition: all 0.5s;
+    max-height: 0px;
+   
+    visibility: hidden;
+}
+
+
+.cont_camp_desp.open-menu{
+    max-height: 500px;
+    
+    visibility:visible;
+    border: 1px solid rgba(0, 0, 0, 0.336);
+}
+
+.cont_camp_desp ul{
+    display: grid;
+    grid-template-columns: repeat(1);
+    gap: 1rem;
+}
+
+
+
+.cont_lib_camp{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr 3fr);
+    align-items: center;
+    gap: 1rem;
+    margin-right: 1rem;
+    
+    
+
+}
+
+.cont_camp_desp img{
+    height: 120px;
+    width: 70px;
+    border-radius: 10px;
+    
+}
+
+.lib_camp_side h3{
+
+    margin-top: -10px;
+
+}
+
+.lib_camp_side img{
+    height: 30px;
+    width: 25px;
+    background-color: brown;
+    padding: 10px;
+    margin-top: -10px;
+}
+
+
+
+.cont_list_deseos:hover{
+    background-color: white;
+    cursor: pointer;
+}
+
+.cont_mis_ord:hover{
+    background-color: white;
+    cursor: pointer;
+}
+
+.cont_ord_fin:hover{
+    background-color: white;
+    cursor: pointer;
+}
+
+.cont_asist:hover{
+    background-color: white;
+    cursor: pointer;
+}
+
+.disp{
+    color: green;
+}
+
+.no_disp{
+    color: crimson;
+}
+
+ */

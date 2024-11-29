@@ -1,0 +1,64 @@
+
+
+
+
+
+.cont_gen_delete_preview{
+    width:25%;
+    height:max-content;
+    margin:auto;
+    display:flex;
+    flex-direction:column;
+    overflow-y:hidden;
+    gap: 1rem;
+   
+    align-items: center;
+}
+
+
+.cont_gen_delete_preview h1{
+    margin-right: auto;
+}
+
+.cont_gen_delete_preview input{
+    width: 40%;
+    height: 2.5rem;
+    border:none;
+    background-color:rgb(235, 235, 235);
+    border-radius:1rem;
+    color:black;
+    font-weight:bolder;
+    font-size:18px;
+    margin-right: auto;
+}
+
+
+
+
+.cont_lib_delete_preview{
+    width: 100%;
+    display: flex;
+    
+
+    
+    margin-top: 8rem;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 4rem;
+    height: calc(100vh - 90px); /* Ajusta la altura restando el nuevo tamaño del header */
+    overflow-y: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.portada_delete_modif img{
+    margin-right: auto;
+    border-radius: 1rem;
+    width: 250px;
+    height: 420px;
+    margin-top: 2rem;
+    cursor: pointer;
+    
+
+
+}

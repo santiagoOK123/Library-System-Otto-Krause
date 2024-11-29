@@ -1,0 +1,170 @@
+body {
+    font-family: Open_Sauce;
+  
+}
+
+@font-face {
+    font-family: "Open_Sauce";
+    src: url("open-sauce.one-bold.ttf") format("truetype");
+}
+
+
+.back-imagen {
+	max-width: 20px;
+	position: absolute;
+	top: 21px;
+	left: 30px;
+}
+
+
+.back-link_r {
+    float: left;
+    text-decoration: none;
+    color: #000000;
+	font-weight: bold;
+    font-size: 16px;
+	position: absolute;
+	left: 65px;
+	right: 30px;
+	top: 22px;
+}
+
+.container_r {
+	position: center;
+	padding-top: 85px; 
+    max-width: 320px;
+    margin: 80px auto;
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 8px;
+}
+
+.logo_r {
+    max-width: 200px;
+    height: auto;
+	margin-bottom: -10px;
+}
+
+.container_r main {
+    text-align: center;
+}
+
+.login-form_r {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.form-group_r {
+    margin-top: 25px;
+	margin-bottom: 15px;
+    position: relative;
+}
+
+.container_r label {
+    position: absolute;
+    top: -8px;
+    left: 30px;
+    background-color: #fff;
+    padding: 0 7px;
+    color: #000000;
+    font-size: 14px;
+    pointer-events: none;
+    transition: top 0.3s ease, left 0.3s ease, font-size 0.3s ease;
+}
+
+.container_r input[type="text"] {
+    width: 100%;
+    padding: 12px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+	border-radius: 10px;
+}
+
+.container_r input[type="text"]:focus {
+    border-color: #007bff;
+    outline: none;
+    box-shadow: 0 0 0 3px rgba(0, 123, 255, 0.2);
+}
+
+.container_r input[type="text"]:not(:placeholder-shown) + .container_r label {
+    top: -10px;
+    left: 10px;
+    font-size: 12px;
+    background-color: #fff;
+    padding: 0 5px;
+}
+
+.container_r button {
+    background-color: #ccc;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 6px;
+    transition: background-color 0.3s ease;
+    margin-top: 10px;
+	width: 280px;
+	height: 40px;
+	position: static;
+}
+
+.container_r button:enabled {
+    background-color: #d21027;
+	font-weight: bold;
+}
+
+.container_r button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+}
+
+.forgot-password {
+    top: 0px;
+    font-size: 14px;
+	text-align: center;
+	position: relative;
+	right: -9px;
+}
+
+.forgot-password a {
+    color: #000000;
+	font-weight: bold;
+    text-decoration: none;
+}
+
+.forgot-password a:hover {
+    text-decoration: underline;
+}
+
+.hidden {
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.3s ease-out;
+}
+
+#confirmationMessage {
+    position: fixed;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #4caf50;
+    color: #fff;
+    padding: 15px;
+    border-radius: 5px;
+    z-index: 1000;
+    
+    transition: opacity 0.3s ease-out;
+}
+
+
+
+@keyframes fadeOut {
+    0% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
+}

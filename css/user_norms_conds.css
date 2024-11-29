@@ -1,0 +1,93 @@
+body{
+    background-color: white;
+    font-family: Open_Sauce;
+    margin: 0;
+}
+
+@font-face {
+    font-family: "Open_Sauce";
+    src: url("open-sauce.one-bold.ttf") format("truetype");
+}
+
+.cont_principal-nc{
+    display: flex;
+    gap: 5rem;
+}
+
+
+.cont_side{
+    position: sticky;
+    top: 2rem;
+    display: flex;
+    flex-direction: column;
+    background-color: #f8f6f6;
+    justify-content: center;
+    align-items: center;
+    margin-left: 2rem;
+    min-width: 15%;
+    border-radius: 2rem;
+    height: 170px;
+
+}
+
+.user_button{
+    display: flex;
+    cursor: pointer;
+    
+    align-items: center;
+    justify-content: center;
+    width: 90%;
+    height: 45px;
+    border-radius: 1rem;
+}
+
+.user_button:hover{
+    background: white;
+}
+.inform{
+    display: flex;
+    flex-direction: column;
+    width: 900px;
+    margin-right: 20rem;
+    
+
+}
+
+
+.titulo-nc{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.otto_log{
+    height: 45px;
+    width: 140px;
+    margin-top: 10px;
+}
+
+
+.cont_descrip_usu{
+    overflow: hidden;
+    max-height: max-content;
+    
+    text-align: left;
+}
+
+.cont_descrip_usu.hidden{
+    max-height: 0;
+    overflow: hidden;
+    
+}
+
+.cont_descrip_adm{
+    overflow: hidden;
+    text-align: left;
+    max-height: 0;
+    
+}
+
+.cont_descrip_adm.open{
+    overflow: hidden;
+    max-height: max-content;
+
+}

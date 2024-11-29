@@ -1,0 +1,146 @@
+body {
+    height: 100%;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+    font-family: Open_Sauce;
+}
+@font-face {
+    font-family: "Open_Sauce";
+    src: url("open-sauce.one-bold.ttf") format("truetype");
+}
+
+.back-imagen {
+	max-width: 20px;
+	position: absolute;
+	top: 21px;
+	left: 30px;
+}
+
+
+.back-link {
+    float: left;
+    text-decoration: none;
+    color: #000000;
+	font-weight: bold;
+    font-size: 16px;
+	position: absolute;
+	left: 65px;
+	right: 30px;
+	top: 22px;
+}
+
+.container_l {
+	position: center;
+	padding-top: 30px; 
+    max-width: 320px;
+    margin: 80px auto;
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 8px;
+}
+
+.logo_l {
+    max-width: 200px;
+    height: auto;
+	margin-bottom: -10px;
+}
+
+.main_l {
+    text-align: center;
+}
+
+.login-form {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.form-group_l {
+    margin-top: 25px;
+	margin-bottom: 10px;
+    position: relative;
+}
+
+.form-group_l label {
+    position: absolute;
+    top: -8px;
+    left: 30px;
+    background-color: #fff;
+    padding: 0 7px;
+    color: #000000;
+    font-size: 14px;
+    pointer-events: none;
+    transition: top 0.3s ease, left 0.3s ease, font-size 0.3s ease;
+}
+
+.form-group_l input[type="text"],
+.form-group_l input[type="password"],
+.form-group_l input[type="email"] {
+    width: 100%;
+    padding: 12px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+	border-radius: 10px;
+}
+
+.form-group_l input[type="text"]:focus,
+.form-group_l input[type="password"]:focus,
+.form-group_l input[type="email"]:focus {
+    border-color: #007bff;
+    outline: none;
+    box-shadow: 0 0 0 3px rgba(0, 123, 255, 0.2);
+}
+
+.form-group_l input[type="text"]:not(:placeholder-shown) + label,
+.form-group_l input[type="password"]:not(:placeholder-shown) + label,
+.form-group_l input[type="email"]:not(:placeholder-shown) + label {
+    top: -10px;
+    left: 10px;
+    font-size: 12px;
+    background-color: #fff;
+    padding: 0 5px;
+}
+
+.main_l button {
+    background-color: #ccc;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 6px;
+    transition: background-color 0.3s ease;
+    margin-top: 10px;
+	width: 280px;
+	height: 40px;
+	position: static;
+}
+
+.main_l button:enabled {
+    background-color: #d21027;
+	font-weight: bold;
+}
+
+.main_l button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+}
+
+.forgot-password_l {
+    top: 0px;
+    font-size: 14px;
+	text-align: center;
+	position: relative;
+	right: -9px;
+}
+
+.forgot-password_l a {
+    color: #000000;
+	font-weight: bold;
+    text-decoration: none;
+}
+
+.forgot-password_l a:hover {
+    text-decoration: underline;
+}

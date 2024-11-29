@@ -1,0 +1,238 @@
+.search_container{
+    height: 100vh;
+    width: 100%;
+    left: 0;
+    top: 0;
+    position: relative;
+    overflow-y: auto;
+    background-image: url('../img/background4.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+body {
+    font-family: Open_Sauce;
+    height: 100%;
+    overflow-y: auto;
+}
+
+@font-face {
+    font-family: "Open_Sauce";
+    src: url("open-sauce.one-bold.ttf") format("truetype");
+}
+
+
+
+.search_main {
+    padding: 5px;
+    /* height: calc(100vh - 90px); */
+    height: auto;
+    overflow-y: auto;
+    flex-wrap: wrap;;
+    padding-right: 25px; /* Espacio para la barra de desplazamiento */
+    margin-right: 25px; /* Separación adicional del borde derecho */
+    padding-left: 25px;
+    display: flex;
+    margin-top: 4rem;
+    margin-left: auto;
+    margin-right: auto;    
+    width: 85%;
+}
+
+.form_search{
+    background-color: blue;
+    
+}
+
+/* Ajuste para las imágenes de los libros */
+.book-gallery_s {
+    gap: 15px;
+    display: flex;
+    row-gap: 1rem;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+       
+}
+
+.image_galery {
+    width: 100%;
+    max-width: 200px; /* Establece el ancho a 200px */
+    height: 320px; /* Establece la altura a 320px */
+    object-fit: cover; /* Asegura que las imágenes se ajusten sin distorsión */
+    border-radius: 20px;
+    margin-top: 10px;
+    margin-bottom: 5px;  /* Reducido margen inferior */
+    /* margin-bottom: 45%; */
+    margin-left: 1rem;
+    margin-right: 1rem;
+    cursor: pointer;
+    transition:all 0.5s;
+
+    
+}
+.libro-item{
+    border-style: solid;
+    border-color: rgb(168, 165, 165);
+    border-radius: 15px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.image_galery:hover{
+    scale: 110%;
+}
+
+/* Estilo personalizado para la barra de desplazamiento */
+.search_main::-webkit-scrollbar {
+    width: 8px; /* Ancho de la barra de desplazamiento vertical */
+    height: 2px; /* Alto de la barra de desplazamiento horizontal */
+}
+
+.search_main::-webkit-scrollbar-track {
+    background: transparent; /* Oculta la parte blanca de la barra de desplazamiento */
+}
+
+.search_main::-webkit-scrollbar-thumb {
+    background: #888;
+    border-radius: 10px;
+    position: relative;
+}
+
+/* Añadir una pseudo-clase para reducir la longitud del pulgar */
+.search_main::-webkit-scrollbar-thumb::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 50%; /* Reducir la altura del pulgar al 50% */
+    background: #888; /* Color del pulgar */
+    border-radius: 10px;
+}
+
+.search_main::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+}
+
+.libros_general{
+    display: flex;
+    max-width: 100%;
+    flex-wrap: wrap;
+    height: max-content;
+    justify-content: center;
+    gap: 15px;
+}
+.libro_query{
+    border-style:solid;
+    border-radius: 5px;
+    border-color: black;
+    border-width: 2px;
+    /* width: 20%; */
+    width: calc(25% - 15px);  /* Establece el ancho de cada libro a 25% (4 por fila) */
+    /* margin: 20px; */
+    margin: 0 7.5px;  /* Añade margen entre los libros */
+
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.libro_query #agregarBttn{
+    border-style: solid;
+    border-radius: 5px;
+    border-color: black;
+    border-width: 1px;
+
+}
+
+.cont_nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.otto_log_n {
+    width: 140px;
+}
+
+
+/* Centrado del texto dentro de cada libro */
+.book-info {
+    display: flex;
+    width: 200px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;  /* Espacio entre el título, autor y disponibilidad */
+}
+
+/* Estilo de los textos dentro del libro */
+.book-info h3, .book-info p {
+    margin: 0;  /* Elimina márgenes por defecto */
+    padding: 0;
+    text-align: center;  /* Asegura que el texto esté centrado */
+}
+
+
+/* Estilo para la barra de desplazamiento */
+::-webkit-scrollbar {
+    width: 10px;  /* Ancho de la barra de desplazamiento vertical */
+    height: 50px; /* Altura de la barra de desplazamiento horizontal */
+}
+
+/* Estilo de la pista de la barra de desplazamiento */
+::-webkit-scrollbar-track {
+    background: transparent;  /* Color de fondo de la pista */
+    border-radius: 5px;   /* Bordes redondeados */
+}
+
+/* Estilo del pulgar (parte que se mueve) de la barra de desplazamiento */
+::-webkit-scrollbar-thumb {
+    background: #888;   /* Color del pulgar */
+    border-radius: 7px;  /* Bordes redondeados */
+}
+
+/* Estilo cuando el usuario pasa el mouse sobre el pulgar */
+::-webkit-scrollbar-thumb:hover {
+    background: #3e3e3e;  /* Cambia el color cuando se pasa el mouse */
+}
+
+
+/* Estilo general para la barra de búsqueda */
+#search {
+    width: 100%; /* Ancho del 100% para que ocupe el espacio disponible */
+    max-width: 400px; /* Máximo de 400px */
+    padding: 10px; /* Espaciado interno */
+    font-size: 16px; /* Tamaño de la fuente */
+    border: 2px solid #ccc; /* Borde con color gris */
+    border-radius: 20px; /* Bordes redondeados */
+    outline: none; /* Elimina el contorno predeterminado */
+    background-color: #f7f7f7; /* Color de fondo */
+    transition: all 0.3s ease; /* Transición para el hover */
+}
+
+/* Estilo cuando el usuario pasa el mouse sobre la barra de búsqueda */
+#search:hover {
+    border-color: #888; /* Cambia el color del borde */
+    background-color: #fff; /* Cambia el fondo */
+}
+
+/* Estilo cuando el campo de búsqueda tiene el foco (es seleccionado) */
+#search:focus {
+    border-color: #910000; /* Borde verde cuando está en foco */
+    background-color: #fff; /* Fondo blanco */
+    box-shadow: 0 0 5px rgba(95, 3, 0, 0.5); /* Sombra verde alrededor del input */
+}
+
+/* Estilo para el tex   to del placeholder */
+#search::placeholder {
+    color: #aaa; /* Color del texto del placeholder */
+    font-style: italic; /* Estilo itálico para el placeholder */
+}

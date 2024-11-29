@@ -1,0 +1,119 @@
+
+
+
+.cont_gen_search_result{
+    width:95%;
+    height:100%;
+    margin:auto;
+    display:flex;
+    flex-direction:column;
+    overflow-y: auto;
+}
+
+
+.cont_port_search_result{
+    
+    width: 48%;
+    height: 95%;
+    margin: auto;
+    border-radius: 1rem;
+    min-width: 400px;
+    max-height: 650px;
+}
+
+.cont_header_search_result{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cont_header_search_result input{
+    width: 40%;
+    height: 2.5rem;
+    border:none;
+    background-color:rgb(235, 235, 235);
+    border-radius:1rem;
+    color:black;
+    font-weight:bolder;
+    font-size:18px;
+}
+
+
+.cont_princ_search_result{
+    background-color:rgb(235, 235, 235);
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    margin-left: auto;
+    margin-right: auto;
+    height: 82%;
+    min-height: min-content;
+    margin-top: 1rem;
+    border-radius: 1rem;
+    flex-wrap: wrap;
+    
+}
+
+
+
+.cont_side_search_result{
+    display: flex;
+    flex-direction: column;
+    height: 630px;
+    width: 48%;
+    margin-right: 1rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.cont_info_lib_search_result{
+    background-color: white;
+    overflow-y: auto;
+    border-radius: 1rem;
+    margin-top: 1rem;
+    padding: 1rem;
+    
+}
+
+
+.cont_inputs_search_result{
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    margin-top: 1rem;
+}
+
+
+.cont_inputs_search_result input{
+    height: 2.5rem;
+    border:none;
+    background-color:rgb(255, 255, 255);
+    border-radius:1rem;
+    color:black;
+    font-weight:bolder;
+    font-size:15px;
+    text-align: center;
+}
+
+.ing_dni_search_result{
+    width: 100%;
+}
+
+
+.prest_button_search_result{
+    background-color: brown;
+    height: 3rem;
+    border-radius: 1rem;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    color: white;
+    justify-content: center;
+    width: 100%;
+    border: none;
+    font-size: 20px;
+    font-weight: bolder;
+}

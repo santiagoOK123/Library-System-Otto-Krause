@@ -1,0 +1,292 @@
+
+
+.port_add_lib{
+    background-color:rgb(235, 235, 235);
+    width: 90%;
+    height: 84%;
+    border-radius: 1rem;
+    margin-right: auto;
+    display: flex;
+    justify-content: center;
+
+}
+
+.port_add_lib input{
+    display: none;
+
+}
+.file_input_add_lib{
+    margin: auto;
+}
+.file_input_add_lib img{
+
+    width: 90px;
+    margin: auto;
+    height: 90px;
+    cursor: pointer;
+    border: none;
+    transition: all 0.2s;
+
+}
+
+.file_input_add_lib img:hover{
+    scale: 110%;
+}
+
+.cont_gen_add_lib{
+    width:95%;
+    height:100%;
+    margin:auto;
+    display:flex;
+    flex-direction:column;
+    overflow-y:hidden;
+   
+}
+
+
+.cont_princ_add_lib{
+    
+    display: flex;
+    width: 100%;
+   overflow-y: auto;
+   overflow-x: hidden;
+   margin-left: auto;
+   margin-right: auto;
+   
+}
+
+.cont_datos_1_add_lib{
+    
+    display: flex;
+    flex-direction: column;
+    min-width: min-content;
+   
+    width: 48%;
+}
+
+.cont_datos_2_add_lib{
+    
+    display: flex;
+    flex-direction: column;
+   
+    min-width: 240px;
+    width: 48%
+    
+}
+
+.cont_id_añ_add_li{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.cont_año_add_lib{
+    width: 45%;
+}
+.cont_idiom_add_lib{
+    width: 45%;
+}
+
+.cont_isb_iss_add_lib{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.cont_isbn_add_lib{
+    width: 45%;
+
+}
+
+.cont_issn_add_lib{
+    width: 45%;
+
+}
+
+
+.cont_checkb_add_lib{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    margin-top: 20px;
+}
+
+
+
+
+.lit_check{
+
+    background-color:rgb(235, 235, 235);
+  border: none;
+  height: 1.5rem;
+  width: 1.5rem;
+  border-radius: 50%;
+  margin-left: 1rem;
+
+}
+
+.lit_check.check{
+    background-color: brown;
+}
+
+.teory_check{
+    background-color:rgb(235, 235, 235);
+    border: none;
+    height: 1.5rem;
+    width: 1.5rem;
+    border-radius: 50%;
+    margin-left: 1rem;
+
+}
+.teory_check.check{
+    background-color: brown;
+}
+
+.cont_lite_add_lib{
+    display: flex;
+    width: 120px;
+    
+    align-items: center;
+    height: 40px;
+}
+
+
+
+.cont_teory_add_lib{
+    display: flex;
+    width: 120px;
+ 
+    align-items: center;
+    height: 40px;
+    
+
+}
+.cont_teory_add_lib p{
+    margin-left: 2rem;
+}
+
+
+.cont_port_add_lib{
+   
+    width: 30%;
+  
+}
+
+.cont_edi_add_lib{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+   
+    align-items: center;
+}
+
+.cont_nedi_add_lib{
+    width: 45%;
+}
+
+.cont_lug_edi_add_lib{
+    width: 45%;
+}
+
+.cont_gen_datos_add_lib{
+    display: flex;
+    flex-direction: column;
+    margin-right: 5px;
+    
+    width: 70%;
+    
+}
+
+.cont_datos_llenar_add_lib{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    min-width: min-content;
+ 
+    
+    
+
+}
+
+
+.cont_datos_1_add_lib input{
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    height: 2rem;
+    border: none;
+    border-radius: 0.5rem;
+    text-align: center;
+    font-size: 15px;
+    font-weight: bolder;
+    background-color:rgb(17, 16, 16);
+}
+
+.cont_datos_2_add_lib input{
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    height: 2rem;
+    border: none;
+    border-radius: 0.5rem;
+    text-align: center;
+    font-size: 15px;
+    font-weight: bolder;
+    background-color:rgb(235, 235, 235);
+}
+
+
+.cont_mat_rel_lib {
+    margin-left: auto;
+    margin-right: auto;
+    
+    width: 100%;
+    margin-top: 2rem;
+    height: 2rem;
+    border: none;
+    border-radius: 0.5rem;
+    text-align: center;
+    font-size: 15px;
+    font-weight: bolder;
+    background-color:rgb(235, 235, 235);
+}
+
+.cont_notas_add_lib textarea{
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    height: 4rem;
+    border: none;
+    border-radius: 0.5rem;
+    text-align: left;
+    font-size: 1rem;
+    font-weight: bolder;
+    background-color:rgb(235, 235, 235);
+    overflow-y: auto;
+
+    
+}
+.cont_paginas_add_lib{
+    
+    
+
+    
+}
+
+.cont_button_add_lib{
+    margin-left: auto;
+    margin-top: 1.5rem;
+    background-color: brown;
+    color: white;
+    font-size: 18px;
+    font-weight: bolder;
+    cursor: pointer;
+    border: none;
+    border-radius: 0.5rem;
+    width: 120px;
+    height: 2rem;
+}

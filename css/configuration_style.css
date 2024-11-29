@@ -1,0 +1,492 @@
+
+.swiper-slide.active {
+    border: 2px solid #f2f8ff; /* Ejemplo de borde azul */
+    transform: scale(1.1); /* Escala el slide ligeramente */
+    transition: transform 0.3s ease;
+}
+
+
+.cont_principal_admconfig{
+    
+    display: flex;
+    width: 85%;
+    margin: auto;
+    height: 100%;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.cont_principal_admconfig h1{
+    margin-right: auto;
+}
+
+
+.cont_gen_buttons_admconfig{
+    
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 2.5rem;
+}
+
+
+.cont_gen_buttons_admconfig div{
+
+    display: flex;
+    flex-direction: column;
+    
+    width: 35%;
+    min-width: min-content;
+}
+
+
+.remove_admin_button_admconfig{
+    background-color: brown;
+    color: white;
+    border: none;
+    width: 100%;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    font-weight: bolder;
+    font-size: 22px;
+    border-radius: 0.5rem;
+    transition: all 0.3s;
+    cursor: pointer;
+
+}
+
+.change_password_admconfig{
+    background-color: rgb(2, 2, 2);
+    color: white;
+    border: none;
+    width: 80%;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    font-weight: bolder;
+    font-size: 22px;
+    border-radius: 0.5rem;
+    transition: all 0.3s;
+    cursor: pointer;
+    margin-top: 1.5rem;
+
+}
+
+.change_time_admconfig{
+    background-color: brown;
+    color: white;
+    border: none;
+    width: 100%;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    font-weight: bolder;
+    font-size: 22px;
+    border-radius: 0.5rem;
+    transition: all 0.3s;
+    cursor: pointer;
+
+}
+
+.remove_hist_admconfig{
+    
+    max-height: 0;
+    overflow: hidden;
+    visibility: hidden;
+
+}
+
+.modal_gen_pe{
+    display:flex;
+    flex-direction:column;
+    width:50%;
+   
+
+    
+    
+    height:max-content;
+    min-height:max-content;
+    background-color:black;
+    color: white;
+    border-radius:1.5rem;
+    
+}
+
+.modal_gen_header{
+    width: 100%;
+    display: flex;
+    
+    font-size: 25px;
+    align-self: center;
+}
+.modal_titulo{
+    
+    margin-left: auto;
+    color:white;
+    margin-right: -50px;
+   
+}
+.close_button{
+    width:50px;
+    height:50px;
+    background-color:rgba(0, 0, 0, 0);
+    margin-left:auto;
+    color:white;
+    font-weight:bolder;
+    border:none;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+}
+
+.conf_button{
+    width:96%;
+    color:white;
+    font-weight:bolder;
+    position:relative;
+    background-color: brown;
+    margin-top:5%;
+    margin-bottom:10px;
+    right:2%;
+    left:2%;
+    font-size:18px;
+    border:none;
+    padding-top:8px;
+    padding-bottom:8px;
+    border-radius:1rem;
+    cursor: pointer;
+}
+
+
+.modal_change_password{
+    background-color: #303030;
+    width: 95%;
+    height: min-content;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    border-radius: 2rem;
+    padding-bottom: 1rem;
+    font-size: 20px;
+    overflow: hidden;
+    
+    max-width: 0;
+    max-height: 0;
+
+}
+
+.modal_change_password.open{
+    max-width: 95%;
+    max-height: max-content;
+
+}
+
+.modal_change_password div{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.modal_change_password input{
+    height: 3rem;
+    width: 40%;
+    border-radius: 3rem;
+    text-align: center;
+    font-size: 18px;
+    font-weight: bolder;
+}
+
+
+.modal_change_time{
+    width: 100%;
+    height: min-content;
+    display: flex;
+    color: white;
+    justify-content: center;
+    align-items: center;
+
+    overflow: hidden;
+    
+    max-width: 0;
+    max-height: 0;
+}
+
+.modal_change_time select{
+    height: 2rem;
+    border: none;
+    background-color: #303030;
+    color: white;
+    font-weight: bolder;
+    border-radius: 1rem;
+    font-size: 18px;
+}
+
+.modal_change_time.open{
+
+    max-width: 100%;
+    max-height: min-content;
+
+}
+
+
+.cont_select_delete_admconfig{
+  
+    width: 95%;
+    display: flex;
+    margin-right: auto;
+    margin-left: auto;
+    align-items: center;
+    
+    gap: 1%;
+}
+
+.modal_delete_historial{
+    color: white;
+
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    font-size: 20px;
+    max-width: 0;
+    max-height: 0;
+    overflow: hidden;
+}
+
+.modal_delete_historial.open{
+    max-width: 100%;
+    max-height: max-content;
+}
+
+
+.cont_ing_password_admconfig{
+    display: flex;
+    width: 95%;
+    margin-right: auto;
+    margin-left: auto;
+    flex-direction: column;
+
+}
+
+.cont_ing_password_admconfig input{
+    height: 3rem;
+    border: none;
+    background-color: #303030;
+    color: white;
+    font-weight: bolder;
+    border-radius: 1rem;
+    font-size: 18px;
+    text-align: center;
+    width: 50%;
+
+}
+
+
+
+.cont_select_delete_admconfig select{
+    height: 3rem;
+    border: none;
+    background-color: #303030;
+    color: white;
+    font-weight: bolder;
+    border-radius: 1rem;
+    font-size: 18px;
+}
+
+
+.overlay{
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.507);
+  position: absolute;
+  z-index:2;
+  top:0;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  max-height: 0;
+  max-width: 0;
+  overflow: hidden;
+  
+
+  
+}
+
+
+.overlay.open{
+
+  max-height: 100%;
+  max-width: 100%;
+
+}
+
+.cont_ing_dni_alum_admconfig{
+    display: flex;
+    align-items: center;
+    margin-right: auto;
+    margin-left: auto;
+    max-height: 0;
+    overflow: hidden;
+    gap: 1%;
+}
+
+.cont_ing_dni_alum_admconfig input{
+    height: 3rem;
+    border: none;
+    background-color: #303030;
+    color: white;
+    font-weight: bolder;
+    border-radius: 1rem;
+    font-size: 18px;
+    text-align: center;
+
+}
+
+.cont_ing_dni_alum_admconfig.open{
+    max-height: min-content;
+    width: 95%;
+}
+
+
+.cont_ing_dni_prof_admconfig{
+    display: flex;
+    max-height: 0;
+    overflow: hidden;
+    margin-right: auto;
+    margin-left: auto;
+    align-items: center;
+    gap: 1%;
+
+}
+
+.cont_ing_dni_prof_admconfig input{
+    height: 3rem;
+    border: none;
+    background-color: #303030;
+    color: white;
+    font-weight: bolder;
+    border-radius: 1rem;
+    font-size: 18px;
+    text-align: center;
+
+}
+
+.cont_ing_dni_prof_admconfig.open{
+    max-height: min-content;
+    width: 95%;
+
+}
+
+.cont_ing_password_remove_admconfig{
+    
+    display: flex;
+    min-height: min-content;
+    
+    flex-direction: column;
+    
+}
+
+.cont_test_config{
+    
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: column;
+    
+    color: white;
+    
+
+
+}
+
+.cont_test_config input{
+    width: 40%;
+    border: none;
+    margin-left: 2%;
+    background: #303030;
+    height: 40px;
+    border-radius: 15px;
+    font-size: 15px;
+    text-align: center;
+    color: white;
+    border: none;
+}
+
+.cont_test_config h2{
+    margin-left: 2%;
+}
+
+.modal_remove_admin{
+    display: flex;
+    
+    flex-direction: column;
+    max-width: 0;
+    max-height: 0;
+    overflow: hidden;
+    font-size: 15px;
+    color: white;
+    flex-wrap: wrap;
+}
+
+.modal_remove_admin.open{
+    max-width: max-content;
+    max-height: max-content;
+}
+
+.swiper {
+    width: 100%;
+    height: 80%;
+    display: flex !important;
+    flex-wrap: wrap !important;
+  }
+
+  .swiper-horizontal{
+    display: flex !important;
+    flex-wrap: wrap !important;
+
+  }
+
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #303030;
+    border-radius: 2rem;
+    
+  
+    display: flex;
+    justify-content: center;
+    width: min-content;
+    color: white;
+  }
+
+  .swiper-slide img{
+    width: 40px;
+    height: 40px;
+    margin-top: 25%;
+    
+}
+
+  .swiper {
+    width: 90%;
+      height: 150px;
+      min-width: 200px !important;
+      margin: 20px auto;
+  }
+
+
+  .swiper-button-prev{
+    background-color: gray;
+    color: rgb(0, 0, 0) !important;
+    padding: 12px;
+    border-radius: 50%;
+    transform: scale(0.75, 0.5) !important;
+}
+
+.swiper-button-next{
+    background-color: gray;
+    color: rgb(0, 0, 0) !important;
+    padding: 12px;
+    border-radius: 50%;
+    transform: scale(0.75, 0.5) !important;
+}

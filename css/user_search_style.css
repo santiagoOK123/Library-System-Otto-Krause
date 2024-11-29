@@ -1,0 +1,138 @@
+
+
+
+.search_container{
+    height: 100%;
+    width: 100%;
+    left: 0;
+    top: 0;
+    position: fixed;
+    background-image: url('../img/background4.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+body {
+    font-family: Open_Sauce;
+    height: 100%;
+}
+
+@font-face {
+    font-family: "Open_Sauce";
+    src: url("open-sauce.one-bold.ttf") format("truetype");
+}
+
+
+
+.search_main {
+    padding: 5px;
+    height: calc(100vh - 90px);
+    overflow-y: auto;
+    padding-right: 25px; /* Espacio para la barra de desplazamiento */
+    margin-right: 25px; /* Separación adicional del borde derecho */
+    padding-left: 25px;
+    display: flex;
+    margin-top: 4rem;
+    margin-left: auto;
+    margin-right: auto;    
+    width: 85%;
+}
+
+.form_search{
+    background-color: blue;
+}
+
+/* Ajuste para las imágenes de los libros */
+.book-gallery_s {
+    display: flex;
+    row-gap: 1rem;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+    
+    margin-left: auto;
+    margin-right: auto;
+       
+}
+
+.image_galery {
+    width: 200px; /* Establece el ancho a 200px */
+    height: 320px; /* Establece la altura a 320px */
+    object-fit: cover; /* Asegura que las imágenes se ajusten sin distorsión */
+    border-radius: 20px;
+    margin-top: 10px;
+    margin-bottom: 45%;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    cursor: pointer;
+    transition:all 0.5s;
+
+    
+}
+
+.image_galery:hover{
+    scale: 110%;
+}
+
+/* Estilo personalizado para la barra de desplazamiento */
+.search_main::-webkit-scrollbar {
+    width: 8px; /* Ancho de la barra de desplazamiento vertical */
+    height: 2px; /* Alto de la barra de desplazamiento horizontal */
+}
+
+.search_main::-webkit-scrollbar-track {
+    background: transparent; /* Oculta la parte blanca de la barra de desplazamiento */
+}
+
+.search_main::-webkit-scrollbar-thumb {
+    background: #888;
+    border-radius: 10px;
+    position: relative;
+}
+
+/* Añadir una pseudo-clase para reducir la longitud del pulgar */
+.search_main::-webkit-scrollbar-thumb::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 50%; /* Reducir la altura del pulgar al 50% */
+    background: #888; /* Color del pulgar */
+    border-radius: 10px;
+}
+
+.search_main::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+}
+
+.libros_general{
+    display: flex;
+    max-width: 100%;
+    flex-wrap: wrap;
+    height: max-content;
+    justify-content: center;
+    gap: 15px;
+}
+.libro_query{
+    border-style:solid;
+    border-radius: 5px;
+    border-color: black;
+    border-width: 2px;
+    width: 20%;
+    margin: 20px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.libro_query #agregarBttn{
+    border-style: solid;
+    border-radius: 5px;
+    border-color: black;
+    border-width: 1px;
+
+}

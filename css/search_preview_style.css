@@ -1,0 +1,71 @@
+#search{
+    width: 350px;
+    height: 40px;
+}
+
+
+
+.cont_gen_search_preview{
+    width:95%;
+    height:100%;
+    margin:auto;
+    display:flex;
+    flex-direction:column;
+    overflow-y:hidden;
+    align-items: center;
+}
+
+
+.cont_gen_search_preview input{
+    width: 40%;
+    height: 4rem;
+    border:none;
+    background-color:rgb(235, 235, 235);
+    border-radius:1rem;
+    color:black;
+    font-weight:bolder;
+    font-size:18px;
+}
+
+
+.cont_lib_search_preview{
+    width: 100%;
+    display: flex;
+    
+
+    
+    margin-top: 8rem;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 4rem;
+    height: calc(100vh - 90px); /* Ajusta la altura restando el nuevo tamaño del header */
+    overflow-y: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.cont_lib_search_preview img{
+    margin-top: 1rem;
+    width: 25%; /* Establece el ancho a 200px */
+    height: 420px; /* Establece la altura a 320px */
+    object-fit: cover; /* Asegura que las imágenes se ajusten sin distorsión */
+    border-radius: 20px;
+    min-width: 250px;
+    cursor: pointer;
+    transition:all 0.5s;
+    margin-bottom: 1rem;
+}
+
+.cont_lib_search_preview img:hover{
+    scale: 110%;
+}
+
+.libro-item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 250px;
+}

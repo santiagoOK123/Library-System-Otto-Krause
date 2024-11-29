@@ -1,0 +1,55 @@
+.cont_main_of{
+    
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.cont_main_of h2{
+    margin-left: 7%;
+    font-size: 30px;
+    margin-right: auto;
+}
+
+
+.cont_ord_of {
+    
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    margin:auto;
+    padding: 0;
+    
+    
+    justify-content: center;
+    flex-wrap: wrap;
+    
+
+
+}
+
+
+
+.cont_lib_of{
+    
+    margin: auto;
+    transition: all 0.5s;
+    width: 250px;
+    text-align: left;
+    
+}
+
+.cont_lib_of img:hover{
+    scale: 110%;
+    
+
+}
+
+.cont_ord_of img{
+    width: 250px;
+    height: 400px;
+    border-radius: 2rem;
+    transition: all 0.5s;
+
+}

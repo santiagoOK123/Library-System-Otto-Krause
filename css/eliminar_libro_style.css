@@ -1,0 +1,347 @@
+
+
+
+
+
+
+.cont_gen_delete_lib{
+    width:95%;
+    height:100%;
+    margin:auto;
+    display:flex;
+    flex-direction:column;
+    overflow-y:hidden;
+   
+   
+}
+
+
+.cont_princ_delete_lib{
+    
+    display: flex;
+    width: 100%;
+   overflow-y: auto;
+   overflow-x: hidden;
+   margin-left: auto;
+   margin-right: auto;
+ 
+   
+}
+
+.cont_datos_1_delete_lib{
+    
+    display: flex;
+    flex-direction: column;
+    min-width: min-content;
+
+    width: 48%;
+}
+
+.cont_datos_2_delete_lib{
+    
+    display: flex;
+    flex-direction: column;
+
+    min-width: 240px;
+    width: 48%
+    
+}
+
+.cont_id_añ_delete_li{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.cont_año_delete_lib{
+    width: 45%;
+}
+.cont_idiom_delete_lib{
+    width: 45%;
+}
+
+.cont_isb_iss_delete_lib{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.cont_isbn_delete_lib{
+    width: 45%;
+
+}
+
+.cont_issn_delete_lib{
+    width: 45%;
+
+}
+
+
+.cont_checkb_delete_lib{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    margin-top: 20px;
+}
+
+
+
+
+.lit_check{
+
+    background-color:rgb(235, 235, 235);
+  border: none;
+  height: 1.5rem;
+  width: 1.5rem;
+  border-radius: 50%;
+  margin-left: 1rem;
+
+}
+
+.lit_check.check{
+    background-color: brown;
+}
+
+.teory_check{
+    background-color:rgb(235, 235, 235);
+    border: none;
+    height: 1.5rem;
+    width: 1.5rem;
+    border-radius: 50%;
+    margin-left: 1rem;
+
+}
+.teory_check.check{
+    background-color: brown;
+}
+
+.cont_lite_delete_lib{
+    display: flex;
+    width: 120px;
+    
+    align-items: center;
+    height: 40px;
+}
+
+
+
+.cont_teory_delete_lib{
+    display: flex;
+    width: 120px;
+ 
+    align-items: center;
+    height: 40px;
+    
+
+}
+.cont_teory_delete_lib p{
+    margin-left: 2rem;
+}
+
+
+.cont_port_delete_lib{
+   
+    width: 30%;
+    
+  
+}
+
+.cont_port_delete_lib img{
+    width: 90%;
+    height: 84%;
+    border-radius: 1rem;
+    margin-right: auto;
+    margin-top: 3rem;
+    
+}
+
+.cont_edi_delete_lib{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+   
+    align-items: center;
+}
+
+.cont_nedi_delete_lib{
+    width: 45%;
+}
+
+.cont_lug_edi_delete_lib{
+    width: 45%;
+}
+
+.cont_gen_datos_delete_lib{
+    display: flex;
+    flex-direction: column;
+    margin-right: 5px;
+   
+    width: 70%;
+    
+}
+
+.cont_datos_llenar_delete_lib{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    min-width: min-content;
+   
+ 
+    
+    
+
+}
+
+
+.cont_datos_1_delete_lib input{
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    height: 2rem;
+    border: none;
+    border-radius: 0.5rem;
+    text-align: center;
+    font-size: 15px;
+    font-weight: bolder;
+    background-color:rgb(235, 235, 235);
+}
+
+.cont_datos_2_delete_lib input{
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    height: 2rem;
+    border: none;
+    border-radius: 0.5rem;
+    text-align: center;
+    font-size: 15px;
+    font-weight: bolder;
+    background-color:rgb(235, 235, 235);
+}
+
+
+.cont_mat_rel_lib {
+    margin-left: auto;
+    margin-right: auto;
+    
+    width: 100%;
+    margin-top: 2rem;
+    height: 2rem;
+    border: none;
+    border-radius: 0.5rem;
+    text-align: center;
+    font-size: 15px;
+    font-weight: bolder;
+    background-color:rgb(235, 235, 235);
+}
+
+
+
+.cont_notas_delete_lib textarea{
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    height: 4rem;
+    border: none;
+    border-radius: 0.5rem;
+    text-align: left;
+    font-size: 1rem;
+    font-weight: bolder;
+    background-color:rgb(235, 235, 235);
+    overflow-y: auto;
+
+    
+}
+
+.cont_button_delete_lib{
+    margin-left: auto;
+    margin-top: 1.5rem;
+    background-color: brown;
+    color: white;
+    font-size: 18px;
+    font-weight: bolder;
+    cursor: pointer;
+    border: none;
+    border-radius: 0.5rem;
+    width: 120px;
+    height: 2rem;
+}
+
+.overlay_delete_lib{
+    width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.507);
+  position: absolute;
+  z-index:2;
+  top:0;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  max-height: 0;
+  max-width: 0;
+  overflow: hidden;
+}
+
+.overlay_delete_lib.open{
+max-height: 100%;
+  max-width: 100%;
+}
+
+.modal_delete_lib{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    color: white;
+    background-color: black;
+    text-align: center;
+    border-radius:1.5rem;
+
+}
+
+.cont_buttons_modal_delete_lib{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    margin-bottom: 1rem;
+}
+
+.conf_modal_delete_lib{
+    width:40%;
+    color:white;
+    font-weight:bolder;
+    position:relative;
+    background-color: brown;
+    margin-top:5%;
+    margin-bottom:10px;
+    right:2%;
+    left:2%;
+    font-size:18px;
+    border:none;
+    padding-top:8px;
+    padding-bottom:8px;
+    border-radius:1rem;
+    cursor: pointer;
+}
+
+.cancel_modal_delete_lib{
+    width:40%;
+    color:black;
+    font-weight:bolder;
+    position:relative;
+    background-color: white;
+    margin-top:5%;
+    margin-bottom:10px;
+    right:2%;
+    left:2%;
+    font-size:18px;
+    border:none;
+    padding-top:8px;
+    padding-bottom:8px;
+    border-radius:1rem;
+    cursor: pointer;
+
+}

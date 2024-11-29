@@ -1,0 +1,177 @@
+
+@font-face {
+    font-family: "Open_Sauce";
+    src: url("open-sauce.one-bold.ttf") format("truetype");
+}
+
+body{
+    font-family: Open_Sauce;
+}
+.links_container{
+    display: flex;
+    gap: 0px; /* Espacio uniforme entre enlaces */
+    align-items: center;
+}
+.links_container a{
+    width: 150px;
+}
+.home_nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 20px;
+    width: 100%;
+    margin: auto;
+    margin-top: 33px;
+    
+    z-index: 2;
+    align-items: center;
+}
+
+.Home_container{
+    background-image: url('../img/home_back.png');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-attachment: fixed;
+
+    height: 100%;
+    width: 100%;
+    left: 0;
+    top: 0;
+    overflow: hidden;
+    position: fixed;
+    
+}
+
+
+.side_bk_home{
+    position: absolute;
+    z-index: 0;
+    margin-right: auto;
+    width: 31.25%;
+    object-fit: cover;
+    height: 105%;
+    top: -5%;
+}
+
+.laptop_cont{
+    position: absolute;
+    z-index: 3;
+    width: min-content;
+    height: min-content;
+    right: 55%;
+    top: 12%;
+}
+
+.laptop_home{
+    position: absolute;
+    z-index: 3;
+    right: 55%;
+    
+    
+    
+
+}
+
+.home_cont_principal{
+    
+    margin: auto;
+    height: 100%;
+    width: 100%;
+   
+    position: relative;
+
+}
+
+
+
+.logo_div_h {
+    margin-left: 35%;
+    z-index: 2;
+   
+}
+
+.logo_h {
+    width: 170px;
+    
+}
+
+
+
+.login_h {
+    padding: 8px 15px;
+    font-size: 15px;
+    cursor: pointer;
+    border: none;
+    background: black;
+    color: white;
+    border-radius: 100px;
+    text-decoration: none;
+    margin-left: auto;
+    margin-right: 10%;
+    text-align: center;
+    height: min-content;
+    z-index: 2;
+    transition: all 0.3s;
+    border: 1px solid black;
+    
+}
+
+.login_h:hover{
+    background: white;
+    color: black;
+
+}
+
+
+.content_h {
+
+display: flex;
+
+width: 500px;
+
+
+
+width: 70%;
+margin-left: 40%;
+
+margin-top: auto;
+margin-bottom: auto;
+z-index: 2;
+
+}
+
+.content_text_h{
+    width: 600px;
+    margin-top: 3rem;
+    
+    border-radius: 1rem;
+    margin-left: auto;
+    font-size: 1.5rem;
+    margin-right: 30%;
+    z-index: 2;
+}
+
+.button_search_h{
+    border: 1px solid black;
+    border-radius: 1rem;
+    width: 12rem;
+    height: 2.5rem;
+    text-align: center;
+    line-height: 40px;
+    z-index: 9;
+    transition: all 0.3s;
+
+}
+.buscar_libro_h{
+    
+    color: black;
+    
+   
+    text-decoration: none;
+}
+
+.button_search_h:hover{
+    background-color: grey;
+    border: 1px solid grey;
+}

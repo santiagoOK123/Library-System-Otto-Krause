@@ -1,0 +1,54 @@
+
+
+.cont_gen_lib_prest_advice{
+    width:100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: max-content;
+    margin-top: 15%;
+    
+    
+}
+
+.cont_gen_lib_prest_advice h1{
+    font-size: 4rem;
+}
+
+
+.cont_redirect_lib_prest_advice{
+    display: flex;
+    align-items: center;
+    font-size: 1.5rem;
+    gap: 1rem;
+    flex-wrap: wrap;
+    
+}
+
+
+.cont_redirect_lib_prest_advice a{
+    text-decoration: none;
+    color: black;
+
+}
+
+.ing_more_lib_prest_advice{
+    font-size: 1.5rem;
+    text-decoration: none;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    width:50%;
+    color:white;
+    font-weight:bolder;
+    background-color: brown;
+    margin-top:5%;
+    margin-bottom:10px;
+    
+    border:none;
+    padding-top:1rem;
+    padding-bottom:1rem;
+    border-radius:1rem;
+    cursor: pointer;
+
+}

@@ -1,0 +1,56 @@
+
+
+.cont_gen_hist_result{
+    width:95%;
+    height:100%;
+    margin:auto;
+    display:flex;
+    flex-direction:column;
+    overflow-y:hidden;
+}
+
+
+
+
+.cont_header_hist_result{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.cont_header_hist_result input{
+    width: 40%;
+    height: 2.5rem;
+    border:none;
+    background-color:rgb(235, 235, 235);
+    border-radius:1rem;
+    color:black;
+    font-weight:bolder;
+    font-size:18px;
+}
+
+
+.cont_princ_hist_result{
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-top: 8rem;
+
+}
+
+.perfil_hist_result{
+    width: 80px;
+}
+
+.port_hist_result{
+    border-radius: 1rem;
+}
+
+.cont_princ_hist_result p{
+    font-size: 22px;
+}

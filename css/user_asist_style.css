@@ -1,0 +1,164 @@
+
+body{
+    background-color: white;
+    font-family: Open_Sauce;
+    margin: 0;
+}
+
+@font-face {
+    font-family: "Open_Sauce";
+    src: url("open-sauce.one-bold.ttf") format("truetype");
+}
+.cont_principal{
+    display: flex;
+    gap: 6rem;
+    justify-content: space-around;
+    
+    
+}
+
+
+.titulo{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+.titulo h1{
+    margin-right: auto;
+}
+
+.titulo img{
+    align-self: flex-start;
+    margin-right: auto;
+}
+
+
+.cont_secc{
+    position: sticky;
+    top: 2rem;
+    margin-top: 1rem;
+    margin-right: auto;
+    margin-left: 2%;
+    background-color: #f8f6f6;
+    text-align: center;
+    border-radius: 30px;
+    width: 15%;
+    height: min-content;
+    font-size: 20px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    min-width: min-content;
+    line-height: 20px;
+    
+    
+}
+
+.otto_log{
+    margin-top: 7%;
+    height: 45px;
+    width: 140px;
+}
+
+
+
+
+
+
+
+
+.desc_icon{
+    border-image: round;
+   
+    height: 20px;
+    width: 20px;
+    background-color: #f8f6f6;
+    padding: 10px;
+    border-radius: 10px;
+    margin-top: 12px;
+    margin-left: -4rem;
+    cursor: pointer;
+    transition: all 0.3s;
+    
+    
+}
+
+.titulo img:hover{
+    scale: 120%;
+    background-color: #cec8c8;
+}
+.desc_icon:hover{
+   
+
+}
+
+
+.cont_desc{
+    display: flex;
+    flex-direction: column;
+    width: 85%;
+    margin-right: 1rem;
+    text-align: left;
+}
+
+.tit_secc{
+    display: flex;
+    gap: 24px;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+    margin-right: 30px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1;
+    border-radius: 10px;
+    margin-right: 30px;
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #888; 
+    border-radius: 10px;
+    margin-right: 30px;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+  }
+
+
+@media (max-width:450px){
+    .desc_icon{
+      
+        max-height: 0;
+        visibility: hidden;
+        overflow: hidden;
+    }
+
+    .cont_principal{
+        
+        gap: 2rem;
+        
+        
+    }
+
+    .titulo img{
+        visibility: visible;
+        min-height: 20px;
+        overflow:visible;
+        margin-left: -1%;
+
+    }
+
+    .titulo h1{
+        font-size: 20px;
+        margin-right: 1%;
+    }
+
+}
+

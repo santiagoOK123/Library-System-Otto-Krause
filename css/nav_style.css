@@ -1,0 +1,175 @@
+@font-face {
+    font-family: "Open_Sauce";
+    src: url("open-sauce.one-bold.ttf") format("truetype");
+}
+
+:root {
+    --max-height: 100vh; /* Fallback */
+}
+nav {
+    height: var(--max-height);
+    
+    display: flex;
+    width: 20%;
+    /* Elimina min-width: max-content si no es necesario */
+    margin-top: auto;
+    margin-bottom: auto;
+    background-color: black;
+    flex-direction: column;
+    color: white;
+    align-items: center;
+    overflow-y: auto;
+}
+
+
+body{
+    width: auto;
+    height: auto;
+    position: static;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+    font-family: Open_Sauce;
+    
+    
+   
+    
+}
+
+
+.otto_log_w_nvadm{
+    scale: 75%;
+    object-fit: cover;
+    margin-top: 1.5rem;
+}
+
+
+.cont_buttons_navdm{
+    margin-top: 1rem;
+  
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    
+    
+
+    
+}
+
+
+
+.cont_buttons_navdm a{
+    text-decoration: none;
+    color: white;
+    display: flex;
+    
+    
+    font-size: 18px;
+    margin-top: 1rem;
+    text-align: center;
+    background-color: black;
+    
+    align-items: center;
+    min-width: 180px;
+    padding-left: calc(50% - 90px);
+    padding-right: calc(50% - 90px);
+    border-radius: 1rem;
+    height: 60px;
+    
+}
+
+.cont_buttons_navdm a:hover{
+    background-color: rgb(59, 59, 59);
+}
+
+.cont_buttons_navdm img{
+    width: 30px;
+    margin-right: 10%;
+    
+    
+    
+    
+    
+   
+    }
+
+.config_button_navadm{
+   
+    text-decoration: none;
+    color: white;
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+    
+    text-align: center;
+    bottom: 100px;
+    background-color: rgb(0, 0, 0);
+    padding-left: calc(45% - 90px);
+    padding-right: calc(45% - 90px);
+    margin-top: 20%;
+    height: 60px;
+    border-radius: 1rem;
+}
+
+.config_button_navadm:hover{
+    background-color: rgb(59, 59, 59);
+}
+
+.config_button_navadm img{
+    width: 30px;
+    margin-right: 1.5rem;
+    
+
+}
+
+
+.cerrar_session_navadm{
+    text-align: center;
+    background-color: brown;
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 20px;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    text-decoration: none;
+    color: white;
+    
+    position: relative;
+    
+    margin-top: 10%;
+}
+
+.cont_buttons_navadm a:hover{
+    background-color: rgb(59, 59, 59);
+}
+
+.cont_principal_pag {
+    width: 80%;
+    height: 100vh; /* Cambia height: 100% por min-height: 100vh */
+    overflow: auto;
+    position: relative;
+    right: 0;
+}
+
+
+
+@media only screen and (max-width: 850px){
+  
+    .cont_principal_pag{
+       
+       
+       width: calc( 100% - 199px);
+       
+       
+        
+    }
+    
+}
+
